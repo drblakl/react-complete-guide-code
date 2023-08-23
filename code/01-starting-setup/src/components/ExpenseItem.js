@@ -1,6 +1,8 @@
 import './ExpenseItem.css'
 
 // A Component in React is a javascript function
+// Can also use object destructuring in param list
+//function ExpenseItem(date, title, amount) {
 function ExpenseItem(props) {
     return (
         <div className="expense-item">
