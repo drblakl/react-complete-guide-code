@@ -4,10 +4,6 @@ import "./Expenses.css";
 function Expenses(props) {
     return (
         <div className="expenses">
-            {/* Pass in the expense item*/}
-            {/*<ExpenseItem*/}
-            {/*  expense={expenses}[0];*/}
-            {/*></ExpenseItem>*/}
             <ExpenseItem
                 title={props.expenses[0].title}
                 amount={props.expenses[0].amount}
