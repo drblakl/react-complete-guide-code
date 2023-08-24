@@ -4,14 +4,8 @@
     "\\code",
     "\\code\\01-starting-setup",
     "\\code\\01-starting-setup\\src",
-    "\\code\\01-starting-setup\\src\\components",
-    "\\code\\05-outputting-dynamic-data",
-    "\\code\\05-outputting-dynamic-data\\public",
-    "\\code\\05-outputting-dynamic-data\\src",
-    "\\code\\06-passing-data-via-props",
-    "\\code\\06-passing-data-via-props\\src",
-    "\\code\\06-passing-data-via-props\\src\\components"
+    "\\code\\01-starting-setup\\src\\components"
   ],
-  "SelectedNode": "\\code\\06-passing-data-via-props\\src\\components\\ExpenseItem.css",
+  "SelectedNode": "\\code\\01-starting-setup\\src\\components\\Card.css",
   "PreviewInSolutionExplorer": false
 }
