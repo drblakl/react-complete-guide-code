@@ -4,8 +4,14 @@
     "\\code",
     "\\code\\01-working-with-state",
     "\\code\\01-working-with-state\\src",
-    "\\code\\01-working-with-state\\src\\components"
+    "\\code\\01-working-with-state\\src\\components",
+    "\\code\\01-working-with-state\\src\\components\\NewExpense",
+    "\\code\\02-adding-form-inputs",
+    "\\code\\02-adding-form-inputs\\src",
+    "\\code\\02-adding-form-inputs\\src\\components",
+    "\\code\\02-adding-form-inputs\\src\\components\\Expenses",
+    "\\code\\02-adding-form-inputs\\src\\components\\UI"
   ],
-  "SelectedNode": "\\code\\03-working-with-multiple-states",
+  "SelectedNode": "\\code\\02-adding-form-inputs\\src\\App.js",
   "PreviewInSolutionExplorer": false
 }
