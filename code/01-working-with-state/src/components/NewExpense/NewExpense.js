@@ -11,6 +11,7 @@ const NewExpense = (props) => {
         };
         console.log(expenseData);
 
+        // Lifting the state up - by utilizing props
         props.onAddExpense(expenseData);
     }
 

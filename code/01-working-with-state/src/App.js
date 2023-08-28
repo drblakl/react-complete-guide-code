@@ -26,6 +26,7 @@ const App = () => {
     },
     ];
 
+    // Lifting the state up - by utilizing props
     const addExpenseHandler = expense => {
         console.log('In App.js');
         console.log(expense);
