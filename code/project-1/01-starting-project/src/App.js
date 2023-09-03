@@ -4,19 +4,22 @@ import InvestmentForm from './components/InvestmentForm';
 import InvestmentResults from './components/InvestmentResults';
 
 function App() {
-    const [yearlyInvestmentData, setInvestmentData] = useState('');
+    const [userInput, setUserInput] = useState(null);
 
     const resetHandler = () => {
-        setInvestmentData('');
+        setUserInput(null);
     }
 
     const calculateHandler = (userInput) => {
-        let yearlyData = [];
-        // Should be triggered when form is submitted
-        // You might not directly want to bind it to the submit event on the form though...
-        let currentSavings = +userInput['savings']; // feel free to change the shape of this input object!
-        const yearlyContribution = +userInput['contribution']; // as mentioned: feel free to change the shape...
-        const expectedReturn = +userInput['return'] / 100;
+        setUserInput(userInput);
+    };
+
+    const yearlyData = [];
+
+    if (userInput) {
+        let currentSavings = +userInput['current-savings'];
+        const yearlyContribution = +userInput['yearly-contribution'];
+        const expectedReturn = +userInput['expected-return'] / 100;
         const duration = +userInput['duration'];
 
         // The below code calculates yearly results (total savings, interest etc)
@@ -33,12 +36,7 @@ function App() {
                 yearlyContribution: yearlyContribution,
             });
         }
-
-        // do something with yearlyData ...
-        console.log(yearlyData);
-
-        setInvestmentData(yearlyData);
-    };
+    }
 
     return (
         <div>
@@ -48,11 +46,7 @@ function App() {
             </header>
 
             <InvestmentForm onResetInvestment={resetHandler} onAddInvestment={calculateHandler}></InvestmentForm>
-
-            {/* Todo: Show below table conditionally (only once result data is available) */}
-            {/* Show fallback text if no data is available */}
-
-            <InvestmentResults items={yearlyInvestmentData}></InvestmentResults>
+            <InvestmentResults items={yearlyData} investment={userInput != null ? userInput["current-savings"] : 0}></InvestmentResults>
         </div>
     );
 }

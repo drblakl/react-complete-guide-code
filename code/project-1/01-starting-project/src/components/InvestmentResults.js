@@ -6,7 +6,7 @@ const InvestmentResults = props => {
     console.log(props);
     if (props.items.length === 0) {
         return (
-            <table className={styles.result}><tbody><tr><td>No investment data available.  Please add new expenses.</td></tr></tbody></table>
+            <table className={styles.result}><tbody><tr><td>No investment data available.  Please add investment data.</td></tr></tbody></table>
         )
     }
     else {
@@ -24,7 +24,7 @@ const InvestmentResults = props => {
                 <tbody>
                     {
                         props.items.map((item) => (
-                            <InvestmentResult data={item}></InvestmentResult>
+                            <InvestmentResult data={item} investment={props.investment}></InvestmentResult>
                         ))
                     }
 
