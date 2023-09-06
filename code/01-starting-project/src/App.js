@@ -7,9 +7,10 @@ import AuthContext from './store/auth-context';
 
 function App() {
     const ctx = useContext(AuthContext);
+
     return (
         <React.Fragment>
-            <MainHeader/>
+            <MainHeader />
             <main>
                 {!ctx.isLoggedIn && <Login />}
                 {ctx.isLoggedIn && <Home />}
