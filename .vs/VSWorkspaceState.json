@@ -1,0 +1,18 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\code",
+    "\\code\\01-starting-project",
+    "\\code\\01-starting-project\\public",
+    "\\code\\01-starting-project\\src",
+    "\\code\\01-starting-project\\src\\components",
+    "\\code\\01-starting-project\\src\\components\\Meals",
+    "\\code\\01-starting-project\\src\\components\\Meals\\MealItem",
+    "\\code\\12-finished",
+    "\\code\\12-finished\\src",
+    "\\code\\12-finished\\src\\components",
+    "\\code\\12-finished\\src\\components\\UI"
+  ],
+  "SelectedNode": "\\code\\01-starting-project\\src\\components\\Cart\\Cart.js",
+  "PreviewInSolutionExplorer": false
+}
