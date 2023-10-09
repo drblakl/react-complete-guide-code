@@ -20,8 +20,7 @@ function ErrorPage() {
 
   return (
     <>
-      <MainNavigation />
-      <PageContent title={title}>
+     <PageContent title={title}>
         <p>{message}</p>
       </PageContent>
     </>
