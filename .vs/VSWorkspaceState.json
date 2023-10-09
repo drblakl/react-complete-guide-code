@@ -2,9 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\code",
-    "\\code\\01-starting-project",
-    "\\code\\01-starting-project\\src",
-    "\\code\\01-using-stateful-lists"
+    "\\code\\12-adv-starting-project",
+    "\\code\\12-adv-starting-project\\backend",
+    "\\code\\15-data-fetching-example\\src",
+    "\\code\\15-data-fetching-example\\src\\pages",
+    "\\code\\30-usefetcher",
+    "\\code\\30-usefetcher\\src",
+    "\\code\\30-usefetcher\\src\\components",
+    "\\code\\30-usefetcher\\src\\pages"
   ],
+  "SelectedNode": "\\code\\12-adv-starting-project\\frontend\\src\\components\\MainNavigation.js",
   "PreviewInSolutionExplorer": false
 }
